@@ -18,6 +18,11 @@ void gameOver() {
 
 int main() {
 
+    int iniciar = 0;
+    
+    int iniciar = 0;
+    
+    while(1){
     printf(" _____________________________________________________________________________________________________________________\n");
     printf("/|                                                                                                                    |\n");
     printf("[|  @@@@    @@@   @@  @  @@@@@  @@@@@  @@@@   @@@@@  @   @   @@@@                                    ,-~ |            |\n");
@@ -34,13 +39,65 @@ int main() {
     printf("[|  @   @  @      @      @   @ @   @      @  @    @                    (  ``==' /                         (  `--'  /  |\n");
     printf("[|  @@@@   @@@@@  @@@@@  @    @    @@@@@  @   @  @                      `-.__,-'                           `-.__,-'   |\n");
     printf("[|                                                                                                                    |\n");                                                             
-    printf("[|-----------------------------------------------------------------¬                                                  |\n");
-    printf("[|                                                                 |                                                  |\n");
-    printf("[|  START GAME(PRESS 1)   CREATORS(PRESS 2)   QUIT GAME(PRESS 3)   |                                                  |\n");                                                             
-    printf("[|                                                                 |                                                  |\n");                                                             
-    printf("[|_________________________________________________________________|__________________________________________________]\n");
-
-
+    printf("[|----------------------------------------------------------------------------¬                                       |\n");
+    printf("[|                                                                            |                                       |\n");
+    printf("[|  COMEÇAR O JOGO(DIGITE 1)   CRIADORES(DIGITE 2)   SAIR DO JOGO(DIGITE 3)   |                                       |\n");                                                             
+    printf("[|                                                                            |                                       |\n");                                                             
+    printf("[|____________________________________________________________________________|_______________________________________]\n\n\n\n\n\n\n");
+    
+    scanf("%d", &iniciar);
+    if(iniciar != 1 && iniciar != 2 && iniciar != 3){
+        while(iniciar != 1 && iniciar != 2 && iniciar != 3){
+            printf("Valor inválido! tente novamente\n\n");
+            scanf("%d", &iniciar);
+        }
+    }
+    if(iniciar == 2){
+        int voltar;
+        printf("\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|CRIADORES:   - ANA ALLYCE      |\n");
+        printf("|    _        - EDUARDA ARAUJO  |\n");
+        printf("|  D/_        - JOAQUIM BATISTA |\n");
+        printf("|  /(_`._,-.  - LUCAS GABRIEL   |\n");
+        printf("| (o) `--'(o) - MIGUEL GUSTAVO  |\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        printf("[DIGITE QUALQUER NÚMERO PARA VOLTAR]\n\n");
+        scanf("%d", &voltar);
+    }
+    if(iniciar == 3){
+        int sair;
+        printf("\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|      DESEJA SAIR DO JOGO?     |\n");
+        printf("|                               |\n");
+        printf("|     SIM(1)          NÃO(2)    |\n");
+        printf("|                               |\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        scanf("%d", &sair);
+        if(sair==1){
+        printf("\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|                               |\n");
+        printf("|        VOLTE SEMPRE!(:        |\n");
+        printf("|                               |\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+            return 0;
+        }
+        if(sair==2){
+            int voltar = 2;
+        }
+        if(sair!=1&&sair!=2){
+            while(sair!=1&&sair!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &sair);
+                
+            }
+        }
+        
+    }
+    }
     
     setlocale(LC_ALL, "Portuguese"); // Permite Usar acentuação entre outros no printf
 
