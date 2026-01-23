@@ -20,8 +20,6 @@ int main() {
 
     int iniciar = 0;
     
-    int iniciar = 0;
-    
     while(1){
     printf(" _____________________________________________________________________________________________________________________\n");
     printf("/|                                                                                                                    |\n");
@@ -97,7 +95,26 @@ int main() {
         }
         
     }
+    if(iniciar == 1){
+        char nome[60];
+        int A;
+        printf("\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|DIGITE O NOME DO SEU PERSONAGEM: ");
+        scanf("%s", &nome);
+        printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("Essa é a história de %s...\n", nome);
+        printf("Você é um motoboy em uma grande cidade.\n");
+        printf("Todos os dias você enfrenta trânsito, pressão e decisões rápidas...\n");
+        printf("Hoje, uma entrega diferente aparece no sistema: pagamento alto, poucas informações e urgência total.\n");
+        printf("O que parecia só mais uma corrida pode mudar o seu dia, ou sua vida...\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
+
+        scanf("%d", &A);
+        
     }
+    }                                                            
     
     setlocale(LC_ALL, "Portuguese"); // Permite Usar acentuação entre outros no printf
 
