@@ -39,7 +39,7 @@ int main() {
     printf("[|                                                                                                                    |\n");                                                             
     printf("[|----------------------------------------------------------------------------¬                                       |\n");
     printf("[|                                                                            |                                       |\n");
-    printf("[|  COMEÇAR O JOGO(DIGITE 1)   CRIADORES(DIGITE 2)   SAIR DO JOGO(DIGITE 3)   |                                       |\n");                                                             
+    printf("[|  COMEÇAR O JOGO[DIGITE 1]   CRIADORES[DIGITE 2]   SAIR DO JOGO[DIGITE 3]   |                                       |\n");                                                             
     printf("[|                                                                            |                                       |\n");                                                             
     printf("[|____________________________________________________________________________|_______________________________________]\n\n\n\n\n\n\n");
     
@@ -87,7 +87,7 @@ int main() {
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|      DESEJA SAIR DO JOGO?     |\n");
         printf("|                               |\n");
-        printf("|     SIM(1)          NÃO(2)    |\n");
+        printf("|     SIM[1]          NÃO[2]    |\n");
         printf("|                               |\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         scanf("%d", &sair);
@@ -116,6 +116,8 @@ int main() {
     if(iniciar == 1){
         char nome[60];
         int A;
+        int escolha1;
+        int azar = 50;
         printf("\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|DIGITE O NOME DO SEU PERSONAGEM: ");
@@ -126,7 +128,45 @@ int main() {
         printf("Todos os dias você enfrenta trânsito, pressão e decisões rápidas...\n");
         printf("Hoje, uma entrega diferente aparece no sistema: pagamento alto, poucas informações e urgência total.\n");
         printf("O que parecia só mais uma corrida pode mudar o seu dia, ou sua vida...\n");
-        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@");
+        printf("|São 7h da manhã e você está deitado no sofá. |  CENÁRIO 1 - Casa de %s\n", nome);
+        printf("|---------------------------------------------|\n");
+        printf("|       SEU DISPERTADOR TOCA MUITO ALTO!      |\n");
+        printf("|        E VOCÊ TEM QUE ESCOLHER ENTRE:       |\n");
+        printf("|                                             |\n");
+        printf("|                                             |\n");
+        printf("|          [1]                  [2]           |\n");
+        printf("|    ACORDAR NA HORA     DESLIGAR O ALARME    |\n");
+        printf("|  CERTA E TER UM DIA   E PROLONGAR O SEU     |\n");
+        printf("|  MUITO PRODUTIVO E    BELO SONO             |\n");
+        printf("|  GLORIOSO                                   |\n");
+        printf("|                                             |\n");
+        printf("|                                             |\n");
+        printf("|                                             |\n");
+        printf("|                                             |\n");
+        printf("|                                             |\n");
+        printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |\n");
+        printf("|---------------------------------------------|\n\n");
+        scanf("%d", &escolha1);
+        
+        if(escolha1==1){
+            azar = azar - 5;
+            printf("[APERTE 0 PARA AVANÇAR]");
+
+        }
+        if(escolha1==2){
+            azar = azar + 5;
+            printf("[APERTE 0 PARA AVANÇAR]");
+            
+        }
+        
+        if(escolha1!=1&&escolha1!=2){
+            while(escolha1!=1&&escolha1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha1);
+                
+            }
+        }
 
 
         scanf("%d", &A);
