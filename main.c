@@ -43,7 +43,25 @@ int main() {
     printf("[|                                                                            |                                       |\n");                                                             
     printf("[|____________________________________________________________________________|_______________________________________]\n\n\n\n\n\n\n");
     
-    scanf("%d", &iniciar);
+
+    while (1) {
+    printf("Escolha: ");
+
+    if (scanf("%d", &iniciar) != 1) {
+        printf("Entrada inválida! Digite apenas números.\n");
+        while (getchar() != '\n');
+        continue;
+    }
+
+    if (iniciar < 1 || iniciar > 3) {
+        printf("Valor inválido! Tente novamente.\n");
+        continue;
+    }
+
+    break;
+    }
+
+
     if(iniciar != 1 && iniciar != 2 && iniciar != 3){
         while(iniciar != 1 && iniciar != 2 && iniciar != 3){
             printf("Valor inválido! tente novamente\n\n");
