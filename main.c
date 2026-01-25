@@ -128,7 +128,7 @@ int main() {
         printf("Todos os dias você enfrenta trânsito, pressão e decisões rápidas...\n");
         printf("Hoje, uma entrega diferente aparece no sistema: pagamento alto, poucas informações e urgência total.\n");
         printf("O que parecia só mais uma corrida pode mudar o seu dia, ou sua vida...\n");
-        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|São 7h da manhã e você está deitado no sofá. |  CENÁRIO 1 - Casa de %s\n", nome);
         printf("|---------------------------------------------| ______________________________________________________________________ \n");
         printf("|       SEU DESPERTADOR TOCA MUITO ALTO!      ||: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :\n");
@@ -150,13 +150,27 @@ int main() {
         printf("                                               ~===========================|_______________|========================~  \n");
         printf("                                               ============================LLLLLLLLLLLLLLLLL=========================~ \n");
         scanf("%d", &escolha1);
+        if(escolha1!=1&&escolha1!=2){
+            while(escolha1!=1&&escolha1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha1);
+                
+            }
+        }
+        
+        
+        
+        
+        
+        
         
         if(escolha1==1){
             azar = azar - 5;
+            int escolha2;
         printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("Você escolheu acordar na hora para ter mais tempo de tomar banho, se vestir e etc...\n");
         printf("Então você faz suas obrigações tranquilamente durante a manhã.\n");
-        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|             Como começar o dia              |                                                                        \n");
         printf("|---------------------------------------------|                                     {                                  \n");
         printf("|    ESTÁ CHEGANDO A HORA DE IR TRABALHAR!    |                                  }   }   {                             \n");
@@ -175,21 +189,96 @@ int main() {
         printf("|                                             |                              |            (  /                         \n");
         printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |                              (             y'                          \n");
         printf("|---------------------------------------------|                               `-.._____..-'                            \n\n\n\n\n\n");
+        scanf("%d", &escolha2);
+        if(escolha2==1){
+            azar = azar + 5;
+        printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("Você escolheu sair apressado, já está até pensando no seu lucro no final do dia $$$. \n");
+        printf("Mas ao tentar ligar a moto, ela falha na primeira tentativa e seu estresse só aumenta...\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|               Sair com a moto               |                                                                        \n");
+        printf("|---------------------------------------------|                                                                        \n");
+        printf("|  SUA MOTO NÃO QUER LIGAR DE JEITO NENHUM!   |                                                                        \n");
+        printf("|        ENTÃO VOCÊ PRECISA DECIDIR:          |                                                                        \n");
+        printf("|                                             |                                                                        \n");
+        printf("|                                             |                                                                        \n");
+        printf("|          [1]                  [2]           |                                                                        \n");
+        printf("|  VOCE VAI ESPERAR      VOCE QUER TRABALHAR! |                                                                        \n");
+        printf("| E DEPOIS DE UM TEMPO  ENTAO TENTA LIGAR A   |                                                                        \n");
+        printf("| TENTAR LIGAR DENOVO   MOTO INSISTENTEMENTE  |                            r==                                         \n");
+        printf("|                                             |                        _  //                                           \n");
+        printf("|                                             |                       |_)//(''''':                                     \n");
+        printf("|                                             |                         //  (_____:_____.-----.P                       \n");
+        printf("|                                             |                        //   | ===  |   /        (                      \n");
+        printf("|                                             |                    .:'//.   ( (=|   ( /  .:'':.                        \n");
+        printf("|                                             |                   :' // ':   ( ( ''..'--:'-.. ':                       \n");
+        printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |                   '. '' .'    (:.....:--'.-'' .'                       \n");
+        printf("|---------------------------------------------|                    ':..:'                ':..:'                        \n\n\n\n\n\n");
         }
-        if(escolha1!=1&&escolha1!=2){
-            while(escolha1!=1&&escolha1!=2){
-                printf("Valor inválido! tente novamente\n\n");
-                scanf("%d", &escolha1);
-                
-            }
+        if(escolha2==2){
+            azar = azar - 5;
+        printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("Depois de tomar seu cafézinho e se arrumar chegou a hora de ir aos trabalhos. \n");
+        printf("Mas ao tentar ligar a moto, ela falha na primeira tentativa...\n");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+        printf("|               Sair com a moto               |                               ___________ @ @                          \n");
+        printf("|---------------------------------------------|                               |        (@)   @                         \n");
+        printf("|  SUA MOTO NÃO QUER LIGAR DE JEITO NENHUM!   |                               |___________/  _@                        \n");
+        printf("|        ENTÃO VOCÊ PRECISA DECIDIR:          |                                          @  _/@ (_____                 \n");
+        printf("|                                             |                                           @/ (__/-=-""`                \n");
+        printf("|                                             |                                            (_ /                        \n");
+        printf("|          [1]                  [2]           |                                             <|                         \n");
+        printf("|  VOCE VAI ESPERAR      VOCE QUER TRABALHAR! |                                             <|                         \n");
+        printf("| E DEPOIS DE UM TEMPO  ENTAO TENTA LIGAR A   |                                             <|                         \n");
+        printf("| TENTAR LIGAR DENOVO   MOTO INSISTENTEMENTE  |                            r==               `                         \n");
+        printf("|                                             |                        _  //                                           \n");
+        printf("|                                             |                       |_)//(''''':                                     \n");
+        printf("|                                             |                         //  (_____:_____.-----.P                       \n");
+        printf("|                                             |                        //   | ===  |   /        (                      \n");
+        printf("|                                             |                    .:'//.   ( (=|   ( /  .:'':.                        \n");
+        printf("|                                             |                   :' // ':   ( ( ''..'--:'-.. ':                       \n");
+        printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |                   '. '' .'    (:.....:--'.-'' .'                       \n");
+        printf("|---------------------------------------------|                    ':..:'                ':..:'                        \n\n\n\n\n\n");
         }
+        
+        
+            
+        
+        }
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         if(escolha1==2){
             azar = azar + 5;
             printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("Você escolheu ignorar e dormir mais 10 minutos.\n");
         printf("Aproveitou esse tempo para sonhar com entregas bem remuneradas...\n");
         printf("Mas você acabou atrasando um pouco.\n");
-        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@");
+        printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|             Como começar o dia              |                                                                        \n");
         printf("|---------------------------------------------|                                                                        \n");
         printf("|    ESTÁ CHEGANDO A HORA DE IR TRABALHAR!    |                                  .+.                                   \n");
