@@ -214,7 +214,34 @@ int main() {
         printf("|                                             |                   :' // ':   ( ( ''..'--:'-.. ':                       \n");
         printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |                   '. '' .'    (:.....:--'.-'' .'                       \n");
         printf("|---------------------------------------------|                    ':..:'                ':..:'                        \n\n\n\n\n\n");
-        }
+       
+       
+       int escolha3;
+            scanf("%d", &escolha3);
+
+            while (escolha3 != 1 && escolha3 != 2) {
+                printf("Valor inválido! tente novamente\n");
+                scanf("%d", &escolha3);
+                }
+
+                if (escolha3 == 1) {
+                azar = azar + 5;
+                printf("\nVocê esperou um pouco e a moto ligou normalmente.\n");
+                }
+
+                if (escolha3 == 2) {
+                 azar = azar - 5;
+                 printf("\nVocê insistiu em ligar a moto e ficou mais estressado.\n");
+                }
+
+       
+       
+        
+        
+
+}
+
+        
         if(escolha2==2){
             azar = azar - 5;
         printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
@@ -239,12 +266,90 @@ int main() {
         printf("|                                             |                   :' // ':   ( ( ''..'--:'-.. ':                       \n");
         printf("| [DIGITE 1 OU 2 DEPENDENDO DA SUA ESCOLHA]   |                   '. '' .'    (:.....:--'.-'' .'                       \n");
         printf("|---------------------------------------------|                    ':..:'                ':..:'                        \n\n\n\n\n\n");
-        }
         
-        
+            int escolha3;
+                scanf("%d", &escolha3);
+
+                while (escolha3 != 1 && escolha3 != 2) {
+                    printf("Valor inválido! tente novamente\n");
+                    scanf("%d", &escolha3);
+                    }
+
+            if (escolha3 == 1) {
+                 azar = azar + 5;
+                printf("\nVocê esperou um pouco e a moto ligou normalmente.\n");
+                printf("\n-------------------------------------------------------\n");
+                printf("|              CENARIO 2 — RUAS DA CIDADE               |\n");
+                printf("---------------------------------------------------------\n");
+                printf("| Você esperou um pouco e a moto ligou normalmente.     |\n");
+                printf("| Com a moto finalmente ligada,                         |\n");
+                printf("|                                                       |\n");
+                printf("| voce sai de casa e entra na cidade.                   |\n");
+                printf("|                                                       |\n");
+                printf("| O transito esta intenso, buzinas                      |\n");
+                printf("| por todos os lados e o tempo corre.                   |\n");
+                printf("--------------------------------------------------------|\n");
+                }
+
+            if (escolha3 == 2) {
+                azar = azar - 5;
+                printf("\n-------------------------------------------------------\n");
+                printf("|              CENARIO 2 — RUAS DA CIDADE               |\n");
+                printf("---------------------------------------------------------\n");
+                printf("| Você insistiu em ligar a moto e ficou mais estressado.|\n");
+                printf("| Com a moto finalmente ligada,                         |\n");
+                printf("|                                                       |\n");
+                printf("| voce sai de casa e entra na cidade.                   |\n");
+                printf("|                                                       |\n");
+                printf("| O transito esta intenso, buzinas                      |\n");
+                printf("| por todos os lados e o tempo corre.                   |\n");
+                printf("--------------------------------------------------------|\n");
+                
+                
+                
+                }
+
             
-        
         }
+        
+
+
+                printf("----------------------------------------\n");
+                printf("| DECISAO — ENCONTRO INESPERADO        |\n");
+                printf("----------------------------------------\n");
+                printf("| No meio do caminho, voce encontra    |\n");
+                printf("| um ex-colega da epoca da escola.     |\n");
+                printf("|                                      |\n");
+                printf("| O que voce faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Cumprimentar educadamente        |\n");
+                printf("| [2] Ser grosso e seguir caminho      |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n");
+
+                int escolhaCidade;
+                scanf("%d", &escolhaCidade);
+                
+                while (escolhaCidade != 1 && escolhaCidade != 2) {
+                    printf("\nOpcao invalida! Digite 1 ou 2\n");
+                    scanf("%d", &escolhaCidade);
+                }
+
+            if (escolhaCidade == 1) {
+                printf("\n----------------------------------------\n");
+                printf("| Voce troca algumas palavras rapidas  |\n");
+                printf("| e segue o caminho mais leve.         |\n");
+                printf("----------------------------------------\n");
+            }
+            
+            if (escolhaCidade == 2) {
+                printf("\n----------------------------------------\n");
+                printf("| Voce ignora o colega e segue serio.  |\n");
+                printf("| O clima fica mais pesado.            |\n");
+                printf("----------------------------------------\n");
+            }
+                    }
         
     
         
