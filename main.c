@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void gameOver() {
+void gameOver(){
     printf("----------------------------------------\n");
     printf("|                                      |\n");
     printf("|          G A M E   O V E R           |\n");
@@ -11,16 +11,24 @@ void gameOver() {
     printf("|        Pressione ENTER               |\n");
     printf("|                                      |\n");
     printf("----------------------------------------\n");
-    
-    // Função gameOver toda vez que quiser fazer o gameOver aparecer é so chamar a função
-    
+}
+int mudarAzar(int *azar, int valor){
+    *azar += valor;
+    if(*azar>=75){
+        gameOver();
+        return 0;
+    }
+    return 1;
+
 }
 
 int main() {
-
+    int azar = 50;
+    mudarAzar(&azar, 30); // 50 + 30 = 80 → DEVE DAR GAME OVER
     int iniciar = 0;
     int A;
-    while(1){
+    int jogando = 1;
+    while(jogando){
     printf(" _____________________________________________________________________________________________________________________\n");
     printf("/|                                                                                                                    |\n");
     printf("[|  @@@@    @@@   @@  @  @@@@@  @@@@@  @@@@   @@@@@  @   @   @@@@                                    ,-~ |            |\n");
@@ -32,7 +40,7 @@ int main() {
     printf("[|                                                                 |//              ( |              (/ /_-~     ~-_  |\n");
     printf("[|                                                                 //________________||              / //___________| |\n");
     printf("[|  @@@@   @@@@@  @      @  @   @  @@@@@  @@@@   @   @            //__|______________| (____________/ //___/-| |~-_   |\n");
-    printf("[|  @   @  @      @      @  @   @  @      @   @   @ @            ((_________________/_-o___________/_//___/  /(,(  )  |\n");
+    printf("[|  @   @  @      @      @  @ 1  @  @      @   @   @ @            ((_________________/_-o___________/_//___/  /(,(  )  |\n");
     printf("[|  @   @  @@@@   @      @  @   @  @@@@   @@@@     @              |__/(  ((====)o===--~~                 (  ( (o/)  ) |\n");
     printf("[|  @   @  @      @      @   @ @   @      @  @    @                    (  ``==' /                         (  `--'  /  |\n");
     printf("[|  @@@@   @@@@@  @@@@@  @    @    @@@@@  @   @  @                      `-.__,-'                           `-.__,-'   |\n");
@@ -42,6 +50,8 @@ int main() {
     printf("[|  COMEÇAR O JOGO[DIGITE 1]   CRIADORES[DIGITE 2]   SAIR DO JOGO[DIGITE 3]   |                                       |\n");                                                             
     printf("[|                                                                            |                                       |\n");                                                             
     printf("[|____________________________________________________________________________|_______________________________________]\n\n\n\n\n\n\n");
+
+
     
 
     while (1) {
@@ -117,7 +127,6 @@ int main() {
         char nome[60];
         int A;
         int escolha1;
-        int azar = 50;
         printf("\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|DIGITE O NOME DO SEU PERSONAGEM: ");
@@ -158,8 +167,16 @@ int main() {
             }
         }
         if(escolha1 == 1 || escolha1 == 2){
-            if(escolha1 == 1){printf("- Você acorda na hora certa -\n"); azar = azar - 5;}
-            if(escolha1 == 2){printf("- Você escolheu dormir mais -\n"); azar = azar + 5;}
+            if(escolha1 == 1){printf("- Você acorda na hora certa -\n"); if(!mudarAzar(&azar, -5)){
+    jogando = 0;
+    break;
+}
+}
+            if(escolha1 == 2){printf("- Você escolheu dormir mais -\n"); if(!mudarAzar(&azar, +5)){
+    jogando = 0;
+    break;
+}
+}
                 printf("----------------------------------------\n");
                 printf("| DECISÃO — COMO COMEÇAR O DIA         |\n");
                 printf("----------------------------------------\n");
@@ -183,8 +200,16 @@ int main() {
                 
             }
             if(escolha2 == 1 || escolha2 == 2){
-            if(escolha2 == 1){printf("- Você se apressa e vai ao trabalho -\n"); azar = azar + 4;}
-            if(escolha2 == 2){printf("- Após seu café, você vai ir trabalhar -\n"); azar = azar - 4;}
+            if(escolha2 == 1){printf("- Você se apressa e vai ao trabalho -\n"); if(!mudarAzar(&azar, +4)){
+    jogando = 0;
+    break;
+}
+}
+            if(escolha2 == 2){printf("- Após seu café, você vai ir trabalhar -\n"); if(!mudarAzar(&azar, -4)){
+    jogando = 0;
+    break;
+}
+}
                 printf("----------------------------------------\n");
                 printf("| DECISÃO — SAIR COM A MOTO            |\n");
                 printf("----------------------------------------\n");
@@ -207,8 +232,16 @@ int main() {
                 
             }
             if(escolha3 == 1 || escolha3 == 2){
-            if(escolha3 == 1){printf("- Você espera um tempinho, mas cosegue ligar a moto -\n"); azar = azar - 3;}
-            if(escolha3 == 2){printf("- Você tenta bastante e força tanto que a moto liga -\n"); azar = azar + 3;}
+            if(escolha3 == 1){printf("- Você espera um tempinho, mas cosegue ligar a moto -\n"); if(!mudarAzar(&azar, -3)){
+    jogando = 0;
+    break;
+}
+}
+            if(escolha3 == 2){printf("- Você tenta bastante e força tanto que a moto liga -\n"); if(!mudarAzar(&azar, +3)){
+    jogando = 0;
+    break;
+}
+}
                 printf("----------------------------------------\n");
                 printf("| DECISÃO — INDO AO TRABALHO           |\n");
                 printf("----------------------------------------\n");
@@ -267,17 +300,8 @@ int main() {
         
         printf("azar: %d", azar);
         
-        scanf("%d", &A);
-        
+        scanf("%d", &A);     
     }
-    
-    
-    setlocale(LC_ALL, "Portuguese"); // Permite Usar acentuação entre outros no printf
-
-    // quando perder
-    gameOver();
-    getchar(); // é um scanf para letras no noso caso para o ENTER
-    
     }
 
     return 0;
