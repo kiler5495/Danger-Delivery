@@ -24,7 +24,6 @@ int mudarAzar(int *azar, int valor){
 
 int main() {
     int azar = 50;
-    mudarAzar(&azar, 30); // 50 + 30 = 80 → DEVE DAR GAME OVER
     int iniciar = 0;
     int A;
     int jogando = 1;
