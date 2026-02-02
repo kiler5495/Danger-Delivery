@@ -39,7 +39,7 @@ int main() {
     printf("[|                                                                 |//              ( |              (/ /_-~     ~-_  |\n");
     printf("[|                                                                 //________________||              / //___________| |\n");
     printf("[|  @@@@   @@@@@  @      @  @   @  @@@@@  @@@@   @   @            //__|______________| (____________/ //___/-| |~-_   |\n");
-    printf("[|  @   @  @      @      @  @ 1  @  @      @   @   @ @            ((_________________/_-o___________/_//___/  /(,(  )  |\n");
+    printf("[|  @   @  @      @      @  @   @  @      @   @   @ @            ((_________________/_-o___________/_//___/  /(,(  )  |\n");
     printf("[|  @   @  @@@@   @      @  @   @  @@@@   @@@@     @              |__/(  ((====)o===--~~                 (  ( (o/)  ) |\n");
     printf("[|  @   @  @      @      @   @ @   @      @  @    @                    (  ``==' /                         (  `--'  /  |\n");
     printf("[|  @@@@   @@@@@  @@@@@  @    @    @@@@@  @   @  @                      `-.__,-'                           `-.__,-'   |\n");
@@ -181,7 +181,7 @@ int main() {
                 printf("----------------------------------------\n");
                 printf("| Está chegando a hora de ir trabalhar |\n");
                 printf("|                                      |\n");
-                printf("| O que voce faz?                      |\n");
+                printf("| O que você faz?                      |\n");
                 printf("|                                      |\n");
                 printf("| [1] Sair apressado para trabalhar    |\n");
                 printf("| mais                                 |\n");
@@ -215,7 +215,7 @@ int main() {
                 printf("| Você quer ir trabalhar mas sua moto  |\n");
                 printf("| não liga                             |\n");
                 printf("|                                      |\n");
-                printf("| O que voce faz?                      |\n");
+                printf("| O que você faz?                      |\n");
                 printf("|                                      |\n");
                 printf("| [1] Espera um pouco, e tenta de novo |\n");
                 printf("| [2] Tenta liga-la insistentemente    |\n");
@@ -247,7 +247,7 @@ int main() {
                 printf("| Você encontra um ex-colega de turma  |\n");
                 printf("| na rua                               |\n");
                 printf("|                                      |\n");
-                printf("| O que voce faz?                      |\n");
+                printf("| O que você faz?                      |\n");
                 printf("|                                      |\n");
                 printf("| [1] Você para pra falar com ele mas  |\n");
                 printf("| se atrasa um pouco pro trabalho      |\n");
@@ -265,7 +265,7 @@ int main() {
                 
             }    
             printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
-            printf("| Ruas da cidade \n");
+            printf("| Ruas da cidade \n");                                                                                                     
             printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n");
             printf("                                                    ..======..                                                         \n");
             printf("                                                     |::::::|                                                          \n");
@@ -288,10 +288,117 @@ int main() {
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &prox);}
             }
+            if(prox==1){
             
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("| CENTRAL DE ENTREGAS\n");
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("                    ___                                                                                   \n");
+            printf("                   |_ _| _____         _                                                                  \n");
+            printf("                    | | (  _` |  ___   | |                                                                \n");
+            printf("                    | | | |_| | ( _ )  | |                                     @~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("                    | | (___, |( (_) ) | |                                     | Você pilota sua moto |  \n");
+            printf("                   |___| ___| | (___)  |_|                                     | pelas avenidas da    |                    \n");
+            printf("                    ||  |____/         (_)                                     | cidade, e finalmente |             \n");
+            printf("   _________________||____________  ||___________________________              | chega ao trabalho.   |             \n");
+            printf("  |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_||             @~~~~~~~~~~~~~~~~~~~~~~@         \n");
+            printf("  |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|||/|                                                        \n");
+            printf("  |_|_|_|_|_|_|_|_|_|     _      _     ||_|_|_|_|_|_|_|_|__|_|_|/||                                             \n");
+            printf("  |_|               |    (_)    (_)    |         __          |_|/||                                                \n");
+            printf("  |_|. Cartas       |__________________|        | _]         |_||/|                                                        \n");
+            printf("  |_|*`.  Pacotes   |_|      ||      |_|     .--||-----.     |_|/||                                            \n");
+            printf("  |_| F `.          |_|      ||      |_|     |  ||     |     |_||/|                                            \n");
+            printf("  |_|`. A `.        |_|      ||      |_|   __|__||_____|     |_|/||                                                       \n");
+            printf("  |_|  `. S `.      |_|     [||]     |_|          ||         |_||/|                                 \n");
+            printf("  |_|    `. T `.    |_|      ||      |_|          ||         |_|/||                                    \n");
+            printf("  |_|______`__*_`___|_|      ||      |_|__________||_________|_||/|                                \n");
+            printf("  |_|_|_|_|_|_|_|_|_|_|______||______|_|_|_|_|_|_|_|_|_|_|_|/||                                  \n");
+            printf("__|_|_|_|_|_|_|_|_|_|_|______||______|_|_|_|_|_|_|_|_|_|_|_||/________                               \n");
+            printf(" /     /     /     /     /     /     /     /     /     /     /     /                               \n");
+            printf("/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/                                \n");
+            printf("[DIGITE 1 PARA AVANÇAR]\n");
+            int prox2;
+            scanf("%d", &prox2);
+            if(prox2!=1){ 
+                    while(prox2 != 1){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &prox2);}
+            }
+            if(prox2 == 1){
             
-            
+            if(escolha4 == 1 || escolha4 == 2){
+            if(escolha4 == 1){printf("- Você chega meio atrasado no trabalho -\n"); if(!mudarAzar(&azar, -10)){
+    jogando = 0;
+    break;
+}
+}
+            if(escolha4 == 2){printf("- Você chegou na hora exata -\n"); if(!mudarAzar(&azar, +10)){
+    jogando = 0;
+    break;
+}
+}
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ENTREGA                    |\n");
+                printf("----------------------------------------\n");
+                printf("| Seu app de entregas toca. O valor    |\n");
+                printf("| dessa entrega está alto $            |\n");
+                printf("|                                      |\n");
+                printf("| (Não é dito o que é)                 |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Aceitar entrega                  |\n");
+                printf("| [2] Recusar entrega                  |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 
+                int escolha5;
+                scanf("%d", &escolha5);
+                if(escolha5!=1&&escolha5!=2){ 
+                    while(escolha5!=1&&escolha5!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha5);}
+            }
+            if(escolha5 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("| ''VOCÊ PERDEU A ENTREGA DA SUA VIDA... AGORA VIVERÁ COM ESSE PESO NA CONSIÊNCIA''   |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;} 
+            }
+            
+            
+            }
+            }
+            }
             }    
           }
         }
@@ -301,6 +408,11 @@ int main() {
         
         scanf("%d", &A);     
     }
+    }
+    
+
+    return 0;
+}
     }
 
     return 0;
