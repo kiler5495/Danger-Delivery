@@ -455,15 +455,15 @@ int main() {
 }
 }
                 printf("----------------------------------------\n");
-                printf("| DECISÃO — SAIR COM A MOTO            |\n");
+                printf("| DECISÃO — SINAL VERMELHO             |\n");
                 printf("----------------------------------------\n");
-                printf("| Você quer ir trabalhar mas sua moto  |\n");
-                printf("| não liga                             |\n");
+                printf("| Você ta no caminho em alta velocidade|\n");
+                printf("| mas vê o sinal ficando vermelho      |\n");
                 printf("|                                      |\n");
                 printf("| O que você faz?                      |\n");
                 printf("|                                      |\n");
-                printf("| [1] Espera um pouco, e tenta de novo |\n");
-                printf("| [2] Tenta liga-la insistentemente    |\n");
+                printf("| [1] Fura o sinal                     |\n");
+                printf("| [2] Para no sinal                    |\n");
                 printf("----------------------------------------\n");
                 printf("| DIGITE 1 OU 2                        |\n");
                 printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -473,6 +473,8 @@ int main() {
                     while(escolha7!=1&&escolha7!=2){
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &escolha7);}}
+                
+                
             }
             }
             }
