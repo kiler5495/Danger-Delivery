@@ -202,12 +202,12 @@ int main() {
                 
             }
             if(escolha2 == 1 || escolha2 == 2){
-            if(escolha2 == 1){printf("- Você se apressa e vai ao trabalho -\n"); if(!mudarAzar(&azar, +4)){
+            if(escolha2 == 1){printf("- Você se apressa e vai ao trabalho -\n"); if(!mudarAzar(&azar, +6)){
     jogando = 0;
     break;
 }
 }
-            if(escolha2 == 2){printf("- Após seu café, você vai ir trabalhar -\n"); if(!mudarAzar(&azar, -4)){
+            if(escolha2 == 2){printf("- Após seu café, você vai ir trabalhar -\n"); if(!mudarAzar(&azar, -6)){
     jogando = 0;
     break;
 }
@@ -234,12 +234,12 @@ int main() {
                 
             }
             if(escolha3 == 1 || escolha3 == 2){
-            if(escolha3 == 1){printf("- Você espera um tempinho, mas cosegue ligar a moto -\n"); if(!mudarAzar(&azar, -3)){
+            if(escolha3 == 1){printf("- Você espera um tempinho, mas cosegue ligar a moto -\n"); if(!mudarAzar(&azar, -5)){
     jogando = 0;
     break;
 }
 }
-            if(escolha3 == 2){printf("- Você tenta bastante e força tanto que a moto liga -\n"); if(!mudarAzar(&azar, +3)){
+            if(escolha3 == 2){printf("- Você tenta bastante e força tanto que a moto liga -\n"); if(!mudarAzar(&azar, +5)){
     jogando = 0;
     break;
 }
@@ -477,29 +477,36 @@ int main() {
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &escolha7);}}
                 
-                if(escolha7 ==2){
-                printf("- Você perde alguns segundos... mas pelo menos não é multado -\n");
+                
+                if(escolha7 == 2){
+                
+                printf("- Demorou um pouco mas você seguiu em frente -\n\n");
+                printf("~ Você entra numa rua vazia demais pra ser normal. Do nada, surgem duas figuras encapuzadas.\n");
+                printf("~ A frase clássica ecoa: “Perdeu, perdeu.” Seu coração dispara. Hora de decidir rápido.\n");
                 printf("----------------------------------------\n");
-                printf("| DECISÃO — SI             |\n");
+                printf("| DECISÃO — ASSALTO!                   |\n");
                 printf("----------------------------------------\n");
-                printf("| Você ta no caminho em alta velocidade|\n");
-                printf("| mas vê o sinal ficando vermelho      |\n");
+                printf("| Você ta sendo abordado por bandidos, |\n");
+                printf("| tem que pensar rápido!               |\n");
                 printf("|                                      |\n");
                 printf("| O que você faz?                      |\n");
                 printf("|                                      |\n");
-                printf("| [1] Furar o sinal                    |\n");
-                printf("| [2] Parar no sinal                   |\n");
+                printf("| [1] Fugir                            |\n");
+                printf("| [2] Entregar a moto                  |\n");
+                printf("| [3] Reagir                           |\n");
                 printf("----------------------------------------\n");
-                printf("| DIGITE 1 OU 2                        |\n");
-                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-                int escolha7;
-                scanf("%d", &escolha7);
-                if(escolha7!=1&&escolha7!=2){ 
-                    while(escolha7!=1&&escolha7!=2){
+                printf("| DIGITE 1, 2 OU 3                     |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n");
+                int escolha8;
+                scanf("%d", &escolha8);
+                if(escolha8!=1&&escolha8!=2&&escolha8!=3){ 
+                    while(escolha8!=1&&escolha8!=2&&escolha8!=3){
                 printf("Valor inválido! tente novamente\n\n");
-                scanf("%d", &escolha7);}}
-                    
+                scanf("%d", &escolha8);}}
                 }
+                
+                
+                
                 
                 if(escolha7 == 1){
                     printf("|--------------------------------------------------------------------------|\n");
@@ -530,15 +537,47 @@ int main() {
                     printf("|                           _______________________________________________|\n");
                     printf("| [DIGITE 1 PARA AVANÇAR]  |\n");
                     printf("|--------------------------|\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-                    printf("azar : %d", azar);
-                    printf("sorteio : %d", sorteio);
+                    
                     int ver2;
                 scanf("%d", &ver2);
                 if(ver2!=1){ 
                     while(ver2!=1){
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &ver2);}}
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|             ''Parabéns, você foi visto. Multa, atraso e entrega cancelada.          |\n");
+              printf("|                             Você falhou miseravelmente''                            |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
                 }
+                
                 if(azar<sorteio){
                     printf("|--------------------------------------------------------------------------|\n");
                     printf("| Caramba.... agora você deu sorte                                         |\n");
@@ -547,19 +586,44 @@ int main() {
                     printf("|                           _______________________________________________|\n");
                     printf("| [DIGITE 1 PARA AVANÇAR]  |\n");
                     printf("|--------------------------|\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-                    printf("azar : %d", azar);
-                    printf("sorteio : %d", sorteio);
+                    
                     int ver3;
                 scanf("%d", &ver3);
                 if(ver3!=1){ 
                     while(ver3!=1){
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &ver3);}}
+                
+                printf("- Hoje a sorte resolveu te proteger. Não se acostuma -\n\n");
+                printf("~ Você entra numa rua vazia demais pra ser normal. Do nada, surgem duas figuras encapuzadas.\n");
+                printf("~ A frase clássica ecoa: “Perdeu, perdeu.” Seu coração dispara. Hora de decidir rápido.\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ASSALTO!                   |\n");
+                printf("----------------------------------------\n");
+                printf("| Você ta sendo abordado por bandidos, |\n");
+                printf("| tem que pensar rápido!               |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Fugir                            |\n");
+                printf("| [2] Entregar a moto                  |\n");
+                printf("| [3] Reagir                           |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1, 2 OU 3                     |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n");
+                int escolha8;
+                scanf("%d", &escolha8);
+                if(escolha8!=1&&escolha8!=2&&escolha8!=3){ 
+                    while(escolha8!=1&&escolha8!=2&&escolha8!=3){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha8);}}
+                
+                }
+            
+                    
                 }
                 
                 
-                
-                }
                 
                 
                 
