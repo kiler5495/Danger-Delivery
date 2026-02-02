@@ -351,7 +351,7 @@ int main() {
                 printf("| [2] Recusar entrega                  |\n");
                 printf("----------------------------------------\n");
                 printf("| DIGITE 1 OU 2                        |\n");
-                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 
                 int escolha5;
                 scanf("%d", &escolha5);
@@ -394,6 +394,88 @@ int main() {
     
                      return 0;} 
             }
+            if(escolha5 == 1){
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("| Você pega sua moto e segue para essa misteriosa entrega... \n");                                                                                                     
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n");
+            printf("                                                    ..======..                                                         \n");
+            printf("                                                     |::::::|                                                          \n");
+            printf("     .====.                                   :====: | : : :|   ..===.           .====.                                \n");
+            printf("     |.::'||      .=====.,     .=======.~,    |//|:: |::::::|   ||:::|=====|     |.::'||      .=====.,     .=======.~, \n");
+            printf("  ___| :::|!__.,  |:::::|!_,   |: :: ::|//| | |//|:: |:;;:::|___!| ::|: : :|  ___| :::|!__.,  |:::::|!_,   |: :: ::|//|\n");
+            printf(" |: :|::: |:: |!__|; :: |: |===::: :: :|//| | |//|:: |: :: :|: : |:: |:::::| |: :|::: |:: |!__|; :: |: |===::: :: :|//|\n");
+            printf(" |:::| _::|: :|:::|:===:|::|:::|:===F=:|//| | |//|::F|:====:|::_:|: :|::__:| |:::| _::|: :|:::|:===:|::|:::|:===F=:|//|\n");
+            printf(" !_[]![_]_!_[]![]_!_[__]![]![_]![_][I_]!//| | |//|::[]I![_][_]!_[_]![]_!_[__]!_[]![_]_!_[]![]_!_[__]![]![_]![_][I_]!//|\n");
+            printf(" ---------------------------------------''''```-------------------------------------------------------------------''''`\n");
+            printf(" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ |= _ _:_ _ =| _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  |= _ _:_\n");
+            printf("                                     |=    :    =|                                                             |=    : \n");
+            printf("_____________________________________L___________J_____________________________________________________________L_______\n");
+            printf("-----------------------------------------------------------------------------------------------------------------------\n");
+            printf("[DIGITE 1 PARA AVANÇAR]\n");
+            int proximo;
+            scanf("%d", &proximo);
+            if(proximo!=1){ 
+                    while(proximo != 1){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &proximo);}}
+                
+                if(proximo == 1){
+                printf("- Você está a caminho do endereço de entrega -\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ESCOLHER CAMINHO           |\n");
+                printf("----------------------------------------\n");
+                printf("| Você está a caminho mas se lembra    |\n");
+                printf("| que conhece um atalho para esse      |\n");
+                printf("| endereço                             |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Caminho seguro (mais longo)      |\n");
+                printf("| [2] Atalho (mais rápido)             |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                
+                int escolha6;
+                scanf("%d", &escolha6);
+                if(escolha6!=1&&escolha6!=2){ 
+                    while(escolha6!=1&&escolha6!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha6);}}
+                
+                if(escolha6 == 1 || escolha6 == 2){
+            if(escolha6 == 1){printf("- Você prefere ir no caminho mais conhecido -\n"); if(!mudarAzar(&azar, +7)){
+    jogando = 0;
+    break;
+}
+}
+            if(escolha6 == 2){printf("- Tentou ser espertinho e pegar o atalho, mas o sinal fechou na sua cara -\n"); if(!mudarAzar(&azar, -7)){
+    jogando = 0;
+    break;
+}
+}
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — SAIR COM A MOTO            |\n");
+                printf("----------------------------------------\n");
+                printf("| Você quer ir trabalhar mas sua moto  |\n");
+                printf("| não liga                             |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Espera um pouco, e tenta de novo |\n");
+                printf("| [2] Tenta liga-la insistentemente    |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                int escolha7;
+                scanf("%d", &escolha7);
+                if(escolha7!=1&&escolha7!=2){ 
+                    while(escolha7!=1&&escolha7!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha7);}}
+            }
+            }
+            }
             
             
             }
@@ -410,10 +492,6 @@ int main() {
     }
     }
     
-
-    return 0;
-}
-    }
 
     return 0;
 }
