@@ -7,7 +7,7 @@
 void gameOver(){
     printf("-----------------------------------------------------------------\n");
     printf("|                                                               |\n");
-    printf("|                    G A M E   O V E R                          |\n");
+    printf("|                       G A M E   O V E R                       |\n");
     printf("|                                                               |\n");
     printf("| ''Hoje não foi seu dia, com base nas suas escolhas seu azar   |\n");
     printf("|  foi tão grande que você acabou morrendo de ATAQUE CARDÍACO'' |\n");                                               
