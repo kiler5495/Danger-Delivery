@@ -530,7 +530,7 @@ int main() {
         return 0;
     } 
     else if (gameover1 == 1) {
-        break;
+        continue;
     }
 }
                 if (escolha8 == 2) {
@@ -559,7 +559,7 @@ int main() {
         return 0;
     } 
     else if (gameover1 == 1) {
-        break;
+        continue;
     }
 }
                 if(escolha8 == 1){
