@@ -987,7 +987,7 @@ int main() {
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &escolha8);}}
                 
-                if(escolha8 == 3){
+                if (escolha8 == 3) {
               printf("---------------------------------------------------------------------------------------\n");
               printf("|                                                                     #    #          |\n");
               printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
@@ -1006,22 +1006,17 @@ int main() {
               printf("|                                                                                     |\n");
               printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
               printf("[DIGITE 1 OU 2] \n");
-              int gameover1;
-              scanf("%d", &gameover1);
-                if(gameover1!=1&&gameover1!=2){ 
-                    while(gameover1!=1&&gameover1!=2){
-                printf("Valor inválido! tente novamente\n\n");
-                scanf("%d", &gameover1);}}
-                if(gameover1 == 2){
-                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
-                   printf("|                               |\n");
-                   printf("|        VOLTE SEMPRE!(:        |\n");
-                   printf("|                               |\n");
-                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    
-                     return 0;}
-                }
-                if(escolha8 == 2){
+    int gameover1;
+    scanf("%d", &gameover1);
+
+    if (gameover1 == 2) {
+        return 0;
+    } 
+    else if (gameover1 == 1) {
+        continue;
+    }
+}
+                if (escolha8 == 2) {
               printf("---------------------------------------------------------------------------------------\n");
               printf("|                                                                     #    #          |\n");
               printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
@@ -1032,29 +1027,24 @@ int main() {
               printf("|                                                                                     |\n");
               printf("|                                                                                     |\n");
               printf("|                                                                                     |\n");
-              printf("| ''Você escolhe a opção mais segura. Também conhecida como arregar profissionalmente.|\n");
-              printf("|               O jogo termina, mas pelo menos você pode respirar''                   |\n");
+              printf("|          ''Você decide reagir. Claramente inspirado por filmes que mentem muito.    |\n");
+              printf("|                  A situação sai do controle e o jogo termina aqui''                 |\n");
               printf("|                                                                                     |\n");
               printf("|                                                                                     |\n");
               printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
               printf("|                                                                                     |\n");
               printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
               printf("[DIGITE 1 OU 2] \n");
-              int gameover1;
-              scanf("%d", &gameover1);
-                if(gameover1!=1&&gameover1!=2){ 
-                    while(gameover1!=1&&gameover1!=2){
-                printf("Valor inválido! tente novamente\n\n");
-                scanf("%d", &gameover1);}}
-                if(gameover1 == 2){
-                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
-                   printf("|                               |\n");
-                   printf("|        VOLTE SEMPRE!(:        |\n");
-                   printf("|                               |\n");
-                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    
-                     return 0;}
-                }
+    int gameover1;
+    scanf("%d", &gameover1);
+
+    if (gameover1 == 2) {
+        return 0;
+    } 
+    else if (gameover1 == 1) {
+        continue;
+    }
+}
                 if(escolha8 == 1){
             printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
             printf("| Você foge e chega no destino final... \n");                                                                                                     
