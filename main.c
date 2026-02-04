@@ -85,9 +85,9 @@ int main() {
         printf("\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|CRIADORES:   - ANA ALLYCE      |\n");
-        printf("|    _        - EDUARDA ARAUJO  |\n");
-        printf("|  D/_        - JOAQUIM BATISTA |\n");
-        printf("|  /(_`._,-.  - LUCAS GABRIEL   |\n");
+        printf("|    _        - JOAQUIM BATISTA |\n");
+        printf("|  D/_        - LUCAS GABRIEL   |\n");
+        printf("|  /(_`._,-.  - MARIA EDUARDA   |\n");
         printf("| (o) `--'(o) - MIGUEL GUSTAVO  |\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         printf("[DIGITE QUALQUER NÚMERO PARA VOLTAR]\n\n");
@@ -503,7 +503,386 @@ int main() {
                     while(escolha8!=1&&escolha8!=2&&escolha8!=3){
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &escolha8);}}
+                
+                if(escolha8 == 3){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|          ''Você decide reagir. Claramente inspirado por filmes que mentem muito.    |\n");
+              printf("|                  A situação sai do controle e o jogo termina aqui''                 |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
                 }
+                if(escolha8 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("| ''Você escolhe a opção mais segura. Também conhecida como arregar profissionalmente.|\n");
+              printf("|               O jogo termina, mas pelo menos você pode respirar''                   |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha8 == 1){
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("| Você foge e chega no destino final... \n");                                                                                                     
+            printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+            printf("                      ________\n");
+            printf("                    (__________)                                            \n");
+            printf("                     | .----. |                                             \n");
+            printf("                     | |    | |        ____                                 \n");
+            printf("                     | |    | |_______|.--.|___                             \n");
+            printf("                     | |    | |^ ^ ^ ^||  ||^ ^))                           \n");
+            printf("        |    ||/   (__________) ^-^-^-||__||-^-^-^))                      \n");
+            printf("  _     |    ||   (____________)___________________|                       \n");
+            printf("   ||   |    ||  ((_----------_))/-/-/-/-/-/-/-/-/-|                        \n");
+            printf("__  |___|_   ||   (____________) ------------------|                        \n");
+            printf("  ||/.----.||  //  | ________ |--- _____---_____ --|                     \n");
+            printf("  //      ||||||   ||  |  |  ||   |o___o| |o___o|  |                       \n");
+            printf("           ||||    ||__|__|__||---|o___o|-|     |--|                      \n");
+            printf("     _      ||     ||  |  |  ||   |0___0| |_____|  |                   \n");
+            printf("         ||||//    ||__|__|__||---|_____|-|o__o_|-//                  \n");
+            printf("  ___     //     ()__-__-__-__-__-__-__-__-__-__-__()                  \n");
+            printf(" `--_____/ |    ()__|__|__|__|__-__-__-__-__-__-__-_()       \n");
+            printf("     `---| |      || | __ | ||    ______   _____   |                   \n");
+            printf("         | |      || ||__|| ||   |//////| |_| |_|  |                        \n");
+            printf("          | |     || |   o| ||---|//////|-|_| |_|--|                        \n");
+            printf("            | |   |__|____|__|---|//////|-|_|_|_|--|                    \n");
+            printf("            | |   |__________|                    _//                       \n");
+            printf("            | | ||____________||------------------//                        \n");
+            printf("--------------------------------------------------------------------------@\n");
+            printf("[DIGITE 1 PARA AVANÇAR]\n");
+            int proximo;
+            scanf("%d", &proximo);
+            if(proximo!=1){ 
+                    while(proximo != 1){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &proximo);}}
+                }
+                if(proximo == 1){
+                printf("- Você foge e nessa fuga o pacote é danificado -\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — PACOTE DANIFICADO          |\n");
+                printf("----------------------------------------\n");
+                printf("| O pacote se rasga um pouco ao fugir  |\n");
+                printf("| algo misterioso está dentro          |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Ignorar e seguir                 |\n");
+                printf("| [2] Abrir o pacote                   |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                int escolha9;
+                scanf("%d", &escolha9);
+                if(escolha9!=1&&escolha9!=2){ 
+                    while(escolha9!=1&&escolha9!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha9);}}
+                if(escolha9 == 2){
+                    printf("|--------------------------------------------------------------------------|\n");
+                    printf("| Você abriu mas viu o que não queria ver....                              |\n");
+                    printf("|                           _______________________________________________|\n");
+                    printf("| [DIGITE 1 PARA AVANÇAR]  |\n");
+                    printf("|--------------------------|\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    int ver3;
+                scanf("%d", &ver3);
+                if(ver3!=1){ 
+                    while(ver3!=1){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &ver3);}}
+                if(ver3 == 1){
+                    printf("|--------------------------------------------------------------------------|\n");
+                    printf("| Dentro da caixa tinha uns 20 Iphones 18.                                 |\n");
+                    printf("| Pelo visto a pirataria venceu                                            |\n");
+                    printf("|                           _______________________________________________|\n");
+                    printf("| [DIGITE 1 PARA AVANÇAR]  |\n");
+                    printf("|--------------------------|\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    int ver4;
+                scanf("%d", &ver4);
+                if(ver4!=1){ 
+                    while(ver4!=1){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &ver4);}}
+                
+                if(ver4 == 1){
+                printf("- Você chegou ao destino final -\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ENTREGA                    |\n");
+                printf("----------------------------------------\n");
+                printf("| Depois de saber o conteúdo do pacote |\n");
+                printf("| pense bem no que vai fazer...        |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Continuar a entrega              |\n");
+                printf("| [2] Jogar o pacote fora              |\n");
+                printf("| [3] Denunciar a pirataria            |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1, 2 OU 3                     |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                int escolha10;
+                scanf("%d", &escolha10);
+                if(escolha10!=1&&escolha10!=2&&escolha10!=3){ 
+                    while(escolha10!=1&&escolha10!=2&&escolha10!=3){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha10);}}
+                
+                if(escolha10 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|     ''A empresa descobre tudo. Você é demitido antes mesmo de explicar.             |\n");
+              printf("|                         Desespero nunca foi estratégia''                            |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 3){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|               ''Olha só, caráter! A polícia resolve o caso.                   |\n");
+              printf("|               Parabéns, %s,você venceu e ainda dorme em paz.''                |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 1){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|           ''Você recebe o dinheiro, mas carrega o peso da escolha.            |\n");
+              printf("|              Parabéns, %s, você venceu!''                                     |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                }
+                
+                
+                }
+                
+            
+                
+                }
+                if(escolha9 == 1){
+                printf("- Você chega ao destino e encontra uma pessoa suspeita -\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ENTREGA                    |\n");
+                printf("----------------------------------------\n");
+                printf("| Depois de tudo chegou a hora         |\n");
+                printf("| pense bem no que vai fazer...        |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Entregar normalmente             |\n");
+                printf("| [2] Questionar o conteúdo            |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                int escolha10;
+                scanf("%d", &escolha10);
+                if(escolha10!=1&&escolha10!=2){ 
+                    while(escolha10!=1&&escolha10!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha10);}}
+                if(escolha10 == 1){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|                ''A entrega é concluída e você recebe o pagamento.             |\n");
+              printf("|                   Parabéns, %s, você venceu!''                                |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                    ''Perguntar de mais nunca ajudou ninguém.                        |\n");
+              printf("|                   você é ameacado e decide fugir antes que piore''                  |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                
+                }
+                }
+                
+                }
+                
                /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
                 
                 
@@ -755,7 +1134,6 @@ int main() {
                     while(ver3!=1){
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &ver3);}}
-                }
                 if(ver3 == 1){
                     printf("|--------------------------------------------------------------------------|\n");
                     printf("| Dentro da caixa tinha uns 20 Iphones 18.                                 |\n");
@@ -793,11 +1171,209 @@ int main() {
                 printf("Valor inválido! tente novamente\n\n");
                 scanf("%d", &escolha10);}}
                 
+                if(escolha10 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|     ''A empresa descobre tudo. Você é demitido antes mesmo de explicar.             |\n");
+              printf("|                         Desespero nunca foi estratégia''                            |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 3){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|               ''Olha só, caráter! A polícia resolve o caso.                   |\n");
+              printf("|               Parabéns, %s,você venceu e ainda dorme em paz.''                |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 1){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|           ''Você recebe o dinheiro, mas carrega o peso da escolha.            |\n");
+              printf("|              Parabéns, %s, você venceu!''                                     |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                }
+                
+                
                 }
                 
             
                 
                 }
+                if(escolha9 == 1){
+                printf("- Você chega ao destino e encontra uma pessoa suspeita -\n");
+                printf("----------------------------------------\n");
+                printf("| DECISÃO — ENTREGA                    |\n");
+                printf("----------------------------------------\n");
+                printf("| Depois de tudo chegou a hora         |\n");
+                printf("| pense bem no que vai fazer...        |\n");
+                printf("|                                      |\n");
+                printf("| O que você faz?                      |\n");
+                printf("|                                      |\n");
+                printf("| [1] Entregar normalmente             |\n");
+                printf("| [2] Questionar o conteúdo            |\n");
+                printf("----------------------------------------\n");
+                printf("| DIGITE 1 OU 2                        |\n");
+                printf("----------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                int escolha10;
+                scanf("%d", &escolha10);
+                if(escolha10!=1&&escolha10!=2){ 
+                    while(escolha10!=1&&escolha10!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &escolha10);}}
+                if(escolha10 == 1){
+              printf("---------------------------------------------------------------------------------\n");
+              printf("|                                                                _              |\n");
+              printf("|              ____   ____.__  __               .__             | |             |\n");
+              printf("|              (   ( /   /|__|/  |_  ___________|__|____        | |             |\n");
+              printf("|               (   Y   / |  (   __(/  _ (_  __ (  (__  (       |_|             |\n");
+              printf("|                (     /  |  ||  | (  <_> )  | (/  |/ __ (_      _              |\n");
+              printf("|                 (___/   |__||__|  (____/|__|  |__(____  /     |_|             |\n");
+              printf("|                                                       (/                      |\n");
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|                ''A entrega é concluída e você recebe o pagamento.             |\n");
+              printf("|                   Parabéns, %s, você venceu!''                                |\n", nome);
+              printf("|                                                                               |\n");
+              printf("|                                                                               |\n");
+              printf("|        [1] Voltar pro início                      [2] Sair do jogo            |\n");
+              printf("|                                                                               |\n");
+              printf("---------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                if(escolha10 == 2){
+              printf("---------------------------------------------------------------------------------------\n");
+              printf("|                                                                     #    #          |\n");
+              printf("|      ____    _    __  __ _____    _____     _______ ____            | # # # ####    |\n");
+              printf("|     / ___|  / (  |  (/  | ____|  / _ ( (   / / ____|  _ (           |  ###_## #     |\n");
+              printf("|    | |  _  / _ ( | |(/| |  _|   | | | ( ( / /|  _| | |_) |          | D/_  #        |\n");
+              printf("|    | |_| |/ ___ (| |  | | |___  | |_| |( V / | |___|  _ <           |/(_`.#,-.      |\n");
+              printf("|     (____/_/   (_(_|  |_|_____|  (___/  (_/  |_____|_| (_(     _____|o) `--'(o)_____|\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|                    ''Perguntar de mais nunca ajudou ninguém.                        |\n");
+              printf("|                   você é ameacado e decide fugir antes que piore''                  |\n");
+              printf("|                                                                                     |\n");
+              printf("|                                                                                     |\n");
+              printf("|        [1] Voltar pro início       [2] Sair do jogo                                 |\n");
+              printf("|                                                                                     |\n");
+              printf("---------------------------------------------------------------------------------------\n\n\n\n\n\n\n\n\n\n");
+              printf("[DIGITE 1 OU 2] \n");
+              int gameover1;
+              scanf("%d", &gameover1);
+                if(gameover1!=1&&gameover1!=2){ 
+                    while(gameover1!=1&&gameover1!=2){
+                printf("Valor inválido! tente novamente\n\n");
+                scanf("%d", &gameover1);}}
+                if(gameover1 == 2){
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
+                   printf("|                               |\n");
+                   printf("|        VOLTE SEMPRE!(:        |\n");
+                   printf("|                               |\n");
+                   printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+                     return 0;}
+                }
+                
+                }
+                
+                
                 }
                 }
                 }
@@ -822,9 +1398,14 @@ int main() {
         
         
 
-        scanf("%d", &A);     
+        
     }
     }
+    
+
+    return 0;
+}
+
     
 
     return 0;
