@@ -90,13 +90,18 @@ int main() {
         }
         printf("\n");
     }
+    int X;
     printf("\nVocê encontrou o easter egg 67.\n");
     printf("*      ____    ___     *\n");
     printf("*    //      //   / / *\n");
     printf("*   //__         / / *\n");
     printf("*  //   ) )     / / *\n");
-    printf("* ((___/ /     / / *\n\n\n\n\n\n\n\n\n\n\n\n");
+    printf("* ((___/ /     / / *\n\n\n\n\n\n\n\n");
+    printf("[DIGITE QUALQUER NÚMERO PARA VOLTAR]\n\n");
+    scanf("%d", &X);
     }
+    
+    
 
     if(iniciar == 2){
         int voltar;
