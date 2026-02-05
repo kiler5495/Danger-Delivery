@@ -155,7 +155,8 @@ int main() {
         printf("\n");
         printf("@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("|DIGITE O NOME DO SEU PERSONAGEM: ");
-        scanf("%s", &nome);
+        while (getchar() != '\n');
+        scanf("%59[^\n]", nome);
         printf("\n\n\n@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@\n");
         printf("Essa é a história de %s...\n", nome);
         printf("Você é um motoboy em uma grande cidade.\n");
