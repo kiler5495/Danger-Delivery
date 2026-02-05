@@ -26,6 +26,8 @@ int mudarAzar(int *azar, int valor){
 }
 
 int main() {
+
+    setlocale(LC_ALL, "Portuguese");
     int azar = 50;
     int iniciar = 0;
     int A;
@@ -65,7 +67,7 @@ int main() {
         continue;
     }
 
-    if (iniciar < 1 || iniciar > 3) {
+    if (iniciar < 1 || iniciar > 67) {
         printf("Valor inválido! Tente novamente.\n");
         continue;
     }
@@ -74,12 +76,28 @@ int main() {
     }
 
 
-    if(iniciar != 1 && iniciar != 2 && iniciar != 3){
+    if(iniciar != 1 && iniciar != 2 && iniciar != 3 && iniciar != 67){
         while(iniciar != 1 && iniciar != 2 && iniciar != 3){
             printf("Valor inválido! tente novamente\n\n");
             scanf("%d", &iniciar);
         }
     }
+
+    if(iniciar == 67){
+    for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 7; j++) {
+            printf("67 ");
+        }
+        printf("\n");
+    }
+    printf("\nVocê encontrou o easter egg 67.\n");
+    printf("*      ____    ___     *\n");
+    printf("*    //      //   / / *\n");
+    printf("*   //__         / / *\n");
+    printf("*  //   ) )     / / *\n");
+    printf("* ((___/ /     / / *\n\n\n\n\n\n\n\n\n\n\n\n");
+    }
+
     if(iniciar == 2){
         int voltar;
         printf("\n");
@@ -1385,5 +1403,3 @@ int main() {
 
     return 0;
 }
-
-    
